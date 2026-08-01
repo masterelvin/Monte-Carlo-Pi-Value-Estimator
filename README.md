@@ -1,4 +1,5 @@
 # Monte Carlo π Value Estimator
+![Monte Carlo Pi Estimator Banner](assets/banner.png)
 
 A visualization of the Monte Carlo method for estimating the value of π through random sampling.
 
