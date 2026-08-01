@@ -79,15 +79,18 @@ The Monte Carlo method is a probabilistic technique that uses repeated random sa
 
 ```
 .
-├── Main.java                  # Entry point; handles user input and drives the simulation
-├── Point.java                 # Represents a single (x, y) coordinate
-├── PointGenerator.java        # Generates random points within the square
-├── CircleChecker.java         # Checks whether a point lies inside the circle
-├── MonteCarloSimulation.java  # Runs simulation trials and computes the π estimate
-├── SimulationPanel.java       # Custom Swing panel that draws the square, circle, and points
-├── SimulationWindow.java      # The application window (JFrame) containing the panel, label, and button
-├── manifest.txt               # Manifest used when building the .jar
-├── MonteCarloPi.jar           # Compiled, runnable Java archive
-├── MonteCarloPi-1.0.exe       # Standalone Windows installer
+├── src/                        # Java source files
+│   ├── Main.java                  # Entry point; handles user input and drives the simulation
+│   ├── Point.java                 # Represents a single (x, y) coordinate
+│   ├── PointGenerator.java        # Generates random points within the square
+│   ├── CircleChecker.java         # Checks whether a point lies inside the circle
+│   ├── MonteCarloSimulation.java  # Runs simulation trials and computes the π estimate
+│   ├── SimulationPanel.java       # Custom Swing panel that draws the square, circle, and points
+│   └── SimulationWindow.java      # The application window (JFrame) containing the panel, label, and button
+├── build/                      # Compiled .class files
+├── dist/                       # Packaged outputs (.jar, .exe installer)
+├── assets/                     # README images (banner, screenshots)
+├── .vscode/                    # Editor configuration
+├── manifest.txt                 # Manifest used when building the .jar
 └── README.md
 ```
