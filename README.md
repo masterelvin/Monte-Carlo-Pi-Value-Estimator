@@ -88,9 +88,8 @@ The Monte Carlo method is a probabilistic technique that uses repeated random sa
 │   ├── SimulationPanel.java       # Custom Swing panel that draws the square, circle, and points
 │   └── SimulationWindow.java      # The application window (JFrame) containing the panel, label, and button
 ├── build/                      # Compiled .class files
-├── dist/                       # Packaged outputs (.jar, .exe installer)
+├── dist/                       # Packaged outputs (.jar, .exe installer, manifest.txt)
 ├── assets/                     # README images (banner, screenshots)
 ├── .vscode/                    # Editor configuration
-├── manifest.txt                 # Manifest used when building the .jar
 └── README.md
 ```
