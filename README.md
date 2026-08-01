@@ -67,11 +67,10 @@ $$
 
 The Monte Carlo method is a probabilistic technique that uses repeated random sampling to approximate numerical values. While it is not an efficient method for calculating π, it provides an intuitive demonstration of probability, geometry, and statistical convergence.
 
-## Technologies
+## Built With
 
-- HTML
-- CSS
-- JavaScript
+- Java (JDK 25)
+- Java Swing — for the GUI window, drawing panel, buttons, and input dialogs
 
 ## Repository Structure
 
