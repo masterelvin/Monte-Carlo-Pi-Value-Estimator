@@ -22,6 +22,16 @@ $$
 
 As the number of random samples increases, the estimate converges closer to the actual value of π.
 
+## How to Run
+
+Download and run:
+
+- `MonteCarloPi-1.0.exe` (Windows)
+- `MonteCarloPi.jar` (Java)
+
+The program will launch the Monte Carlo π simulation visualization.
+
+
 ## Features
 
 - Random point generation
